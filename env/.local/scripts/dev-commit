@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+pushd ~/personal/dev/nvim
+git add .
+git commit -m 'Automated commit'
+git push
+popd
+
+pushd ~/personal/dev
+git add .
+git commit -m 'Automated commit'
+git push
+popd
+

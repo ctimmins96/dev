@@ -1,0 +1,3 @@
+[submodule "NVIM_CFG"]
+	path = env/.config/nvim
+	url = git@github.com:ctimmins96/nvim.cfg.git

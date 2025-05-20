@@ -1,0 +1,20 @@
+echo "Loading Aliases..."
+
+## Aliases
+# ls
+alias ls='ls --color=auto'
+alias ll='ls --color=auto -la'
+
+# grep
+alias grep='grep --color=auto'
+
+# Vim Alias
+alias vim='nvim'
+
+# Cobbled Commands
+alias refenv='source ~/.bashrc'
+alias e_bash='vim ~/.bashrc'
+alias e_alias='vim ~/.bash-aliases'
+alias e_alac='vim ~/.config/alacritty/alacritty.toml'
+alias e_hypr='vim ~/.config/hypr/hyprland.conf'
+alias e_hbinds='vim ~/.config/hypr/binds.conf'
