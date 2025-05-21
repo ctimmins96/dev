@@ -70,4 +70,4 @@ copy $DEV_ENV/update-dev $HOME/.local/scripts/update-dev
 copy $DEV_ENV/bash/.bashrc $HOME/.bashrc
 
 hyprctl reload
-refenv
+
