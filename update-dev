@@ -14,6 +14,9 @@ fi
 
 # Check for -d or --dry
 if [[ $# -gt 0 ]]; then
+    if [[ $1 == "--dry" ]] || [[ $1 == "-d" ]]; then
+        dry_run="1"
+    fi
 fi
 
 log()
@@ -64,5 +67,7 @@ update_files $DEV_ENV/env/.config $XDG_CONFIG_HOME
 update_files $DEV_ENV/env/.local $HOME/.local
 
 copy $DEV_ENV/update-dev $HOME/.local/scripts/update-dev
+copy $DEV_ENV/bash/.bashrc $HOME/.bashrc
 
 hyprctl reload
+refenv

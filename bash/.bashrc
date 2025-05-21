@@ -22,6 +22,8 @@ source ~/.bash-aliases
 ## Exports
 export SUDO_EDITOR=/bin/nvim
 export GRIM_DEFAULT_DIR=~/Screenshots
+export DEV_ENV=~/personal/dev
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/.local/scripts
 
 ## Settings
 HISTSIZE=1000
