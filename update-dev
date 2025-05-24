@@ -69,5 +69,5 @@ update_files $DEV_ENV/env/.local $HOME/.local
 copy $DEV_ENV/update-dev $HOME/.local/scripts/update-dev
 copy $DEV_ENV/bash/.bashrc $HOME/.bashrc
 
-hyprctl reload
+hyprctl reload &> /dev/null
 
