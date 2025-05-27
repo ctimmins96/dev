@@ -1,20 +1,22 @@
 # ToDos
 
-1. ~~Install Keymapp~~
+1. ~Install Keymapp~ (need to find it again) !
 
-2. Install Reaper
+2. ~Fix My Mouse~
 
-3. Get Reaper License Working
+3. ~Install Reaper~
 
-4. Install Archetype Petrucci
+4. Get Reaper License Working
 
-5. Be able to practice guitar within Arch (2-5)
+5. ~Install Archetype Petrucci~ (Neural DSP currently not working in Linux)
 
-1. Install Godot
+6. Be able to practice guitar within Arch (2-6)
 
-7. Port over "Lead the Tower"
+7. Install Godot
 
-1. Get "Lead the Tower" and C# working in Arch Linux
+8. Port over "Lead the Tower"
+
+9. Get "Lead the Tower" and C# working in Arch Linux
 
 6. ~~Install Steam~~
 

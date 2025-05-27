@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 dry_run="0"
 
+# Get current date and time as a string
+date_str=$(date '+%Y-%m-%d_%H-%M-%S')
+
 if [ -z "$XDG_CONFIG_HOME" ]; then
     echo "no xdg config home"
     echo "using ~/.config"
@@ -69,5 +72,13 @@ update_files $DEV_ENV/env/.local $HOME/.local
 copy $DEV_ENV/update-dev $HOME/.local/scripts/update-dev
 copy $DEV_ENV/bash/.bashrc $HOME/.bashrc
 
+# Hyprland reload
+echo "Reloading hyprland..."
 hyprctl reload &> /dev/null
 
+# Waybar reload
+echo "Reloading waybar..."
+killall waybar &> /dev/null
+waybar >> "/var/log/waybar/$(date).log"
+
+echo "Done"
