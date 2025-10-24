@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
-src_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && cd ../nvim &> /dev/null && pwd )"
-echo "$src_dir"
+
+sudo pacman -S --needed --noconfirm neovim lua51 tree-sitter  tree-sitter-vim
+sudo pacman -S --needed --noconfirm tree-sitter-c tree-sitter-lua tree-sitter-markdown
+

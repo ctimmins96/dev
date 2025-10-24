@@ -79,6 +79,10 @@ hyprctl reload &> /dev/null
 # Waybar reload
 echo "Reloading waybar..."
 killall waybar &> /dev/null
-waybar >> "/var/log/waybar/$(date).log"
+waybar >> "/var/log/waybar/$(date).log" &
+
+# Reload .bashrc just in case
+echo "Refreshing environment variables (.bashrc)"
+source ~/.bashrc
 
 echo "Done"

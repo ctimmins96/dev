@@ -10,9 +10,9 @@
 
 5. ~Install Archetype Petrucci~ (Neural DSP currently not working in Linux)
 
-6. Be able to practice guitar within Arch (2-6)
+6. ~Be able to practice guitar within Arch (2-6)~
 
-7. Install Godot
+7. ~Install Godot~
 
 8. Port over "Lead the Tower"
 
